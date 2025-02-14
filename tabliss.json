@@ -1,0 +1,62 @@
+{
+    "background": {
+        "display": {
+            "blur": 8,
+            "luminosity": -0.3
+        },
+        "id": "lTov9ve5756u",
+        "key": "background/image"
+    },
+    "data/4eMb_jNtU7s2": {
+        "searchEngine": "bing",
+        "suggestionsQuantity": 4
+    },
+    "data/B_78IHpnBD9x": {
+        "messages": [
+            "Voltaccept"
+        ]
+    },
+    "data/T6W6ZGxHZM4w": {
+        "input": "/*\n---------------------------------------------------------------\n                      Custom Font Families                     \n---------------------------------------------------------------\n*/\n\n@font-face {\n    font-family: Warframe;\n    src: url(\"https://voltacceptyt.github.io/TablissCSS-Custom/Warframe.ttf\") format(\"truetype\");\n    font-weight: thin;\n}\n\n/*\n---------------------------------------------------------------\n                       Custom Tabliss CSS                      \n---------------------------------------------------------------\n*/\n\n.Dashboard * {\n    font-family: \"Warframe\";\n}\n\n.Widgets .container {\n    width: 100%;\n    min-width: 768px;\n}\n\n.Widgets .container .bottomCentre {\n    width: 100%;\n    bottom: 0;\n    background-color: rgba(0, 0, 0, 0.3);\n    backdrop-filter: blur(10px);\n}\n\n.Widgets .container .middleCentre {\n    width: calc(100% - 800px);\n}\n\n.Search input {\n    border: 1px solid rgba(249, 249, 250, 0.2);\n    border-radius: 3px;\n    padding: .75rem 0 .75rem 3rem;\n    text-align: start;\n    font: 400 1.1rem 'Segoe UI';\n    transition: border-color 150ms ease-in-out, box-shadow 150ms ease-in-out;\n}\n\n.Search input::placeholder {\n    color: unset;\n    opacity: 0.54;\n}\n\n.Search input:focus {\n    border: solid 1px #4169e1;\n    box-shadow: 0 0 0 1px #4169e1, 0 0 0 4px rgba(65, 105, 225, 0.3);\n}\n\n.Overlay {\n    display: none !important;\n}"
+    },
+    "focus": false,
+    "widget/11ammCIgEMy8": null,
+    "widget/4DUuHJVTsXfP": null,
+    "widget/4eMb_jNtU7s2": {
+        "display": {
+            "fontSize": 38,
+            "position": "middleCentre"
+        },
+        "id": "4eMb_jNtU7s2",
+        "key": "widget/search",
+        "order": 2
+    },
+    "widget/B_78IHpnBD9x": {
+        "display": {
+            "fontSize": 18,
+            "fontWeight": 100,
+            "position": "bottomCentre"
+        },
+        "id": "B_78IHpnBD9x",
+        "key": "widget/message",
+        "order": 1
+    },
+    "widget/T6W6ZGxHZM4w": {
+        "display": {
+            "fontSize": 2,
+            "position": "middleCentre"
+        },
+        "id": "T6W6ZGxHZM4w",
+        "key": "widget/css",
+        "order": 3
+    },
+    "widget/Td4yGMXfCnbj": null,
+    "widget/Zj6vbLcsGYmm": null,
+    "widget/default-greeting": null,
+    "widget/default-time": null,
+    "widget/qFQ4CiiNFpU8": null,
+    "widget/uFPUucig6WhR": null,
+    "locale": "en",
+    "timeZone": null,
+    "version": 3
+}

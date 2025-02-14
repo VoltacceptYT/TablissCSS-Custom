@@ -58,8 +58,3 @@
 .Overlay {
     display: none !important;
 }
-
-.Widgets .container .bottomCentre .Message h3 {
-    content: "\e001 Designed by Voltaccept";
-    font-size: 1.25rem;
-}

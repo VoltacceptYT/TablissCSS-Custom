@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Warframe;
+    src: url("https://voltacceptyt.github.io/TablissCSS-Custom/Warframe.ttf") format("truetype");
+}
+
+
+.Dashboard * {
+    font-family: "Warframe";
+}
+
+.Widgets .container {
+    width: 100%;
+    min-width: 768px;
+}
+
+.Widgets .container .bottomCentre {
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.Widgets .container .middleCentre {
+    width: calc(100% - 800px);
+}
+
+.Search input {
+    border: 1px solid rgba(249, 249, 250, 0.2);
+    border-radius: 3px;
+    padding: .75rem 0 .75rem 3rem;
+    text-align: start;
+    font: 400 1.1rem 'Segoe UI';
+    transition: border-color 150ms ease-in-out, box-shadow 150ms ease-in-out;
+}
+
+.Search input::placeholder {
+    color: unset;
+    opacity: 0.54;
+}
+
+.Search input:focus {
+    border: solid 1px #4169e1;
+    box-shadow: 0 0 0 1px #4169e1, 0 0 0 4px rgba(65, 105, 225, 0.3);
+}
+.Overlay {
+    display: none !important;
+}

@@ -54,6 +54,12 @@
     border: solid 1px #4169e1;
     box-shadow: 0 0 0 1px #4169e1, 0 0 0 4px rgba(65, 105, 225, 0.3);
 }
+
 .Overlay {
     display: none !important;
+}
+
+.Widgets .container .bottomCentre .Message h3 {
+    content: "\e001 Designed by Voltaccept";
+    font-size: 1.25rem;
 }

@@ -1,8 +1,20 @@
+/*
+---------------------------------------------------------------
+                      Custom Font Families                     
+---------------------------------------------------------------
+*/
+
 @font-face {
     font-family: Warframe;
     src: url("https://voltacceptyt.github.io/TablissCSS-Custom/Warframe.ttf") format("truetype");
+    font-weight: thin;
 }
 
+/*
+---------------------------------------------------------------
+                       Custom Tabliss CSS                      
+---------------------------------------------------------------
+*/
 
 .Dashboard * {
     font-family: "Warframe";
